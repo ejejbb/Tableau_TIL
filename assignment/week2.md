@@ -279,8 +279,16 @@ https://github.com/yousrchive/BUSINESS-INTELLIGENCE-TABLEAU/blob/main/study/img/
 ```
 
 ```
-여기에 답을 적어주세요!
+1.	필터에 국가/지역을 drug&drop하여 ‘china, Japan, south korea’인 데이터만 필터링하기
+2.	국가/지역과 배송날짜 필드를 열 선반에, 매출과 수익 필드를 행 선반에 drug&drop
+3.	열 선반에 있는 배송날짜 필드를 마우스 우클릭하여 연속형 월 데이터로 변경
+4.	행 선반에 있는 수익 필드 마우스 우클릭하여 이중 축 설정
+5.	수익 세로축을 마우스 우클릭하여 축 동기화
+6.	값이 클수록 그래프의 색을 그라데이션으로 다르게 표현하기 위해 마크창의 합계(매출) 탭의 색상에 행 선반에 있는 매출 필드를 ctrl키를 누른 채로 drug&drop, 마크창의 합계(수익) 탭의 색상에 행 선반에 있는 수익 필드를 ctrl키를 누른 채로 drug&drop
 ```
+**실습결과**
+<img width="800" alt="w2_q2" src="https://github.com/user-attachments/assets/51ffeaf4-fefa-4a47-850f-fc8a9cc1e330">
+
 
 ### 참고 자료
 
