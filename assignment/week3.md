@@ -273,6 +273,16 @@ Ex. 제품 이름을 제조 회사를 기준으로 그룹화하기!
 ```
 
 <!-- DArt-B superstore가 아닌 개인 superstore 파일을 사용했다면 값이 다르게 표시될 수 있습니다.-->
+```
+시기 별 매출 top10을 확인하고 싶기 때문에 배송 날짜에 컨텍스트 필터를 설정한다. 
+```
+
+**실습결과**
+<img width="468" alt="문제1-1" src="https://github.com/user-attachments/assets/e6871631-2fe8-474b-9b05-ad1132c9ea54">
+
+<img width="547" alt="문제1-2" src="https://github.com/user-attachments/assets/f318ba9b-3587-4376-b3be-c473d42e8a1c">
+
+
 
 ## 문제 2.
 
@@ -291,3 +301,12 @@ Ex. 제품 이름을 제조 회사를 기준으로 그룹화하기!
 ```
 
 ![image](https://github.com/yousrchive/BUSINESS-INTELLIGENCE-TABLEAU/blob/main/study/img/3rd%20study/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202024-09-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.37.55.png?raw=true)
+
+
+### 2-1. 그룹 설정하기
+<img width="301" alt="문제2" src="https://github.com/user-attachments/assets/dadcda03-2268-4198-8bed-0f2eb9fab385">
+
+
+### 2-2. 실습하기
+<img width="797" alt="문제2_실습결과" src="https://github.com/user-attachments/assets/48af6add-5a3a-42c1-b5e2-37a6dc8ea7d7">
+
