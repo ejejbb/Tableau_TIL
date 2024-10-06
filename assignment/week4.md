@@ -191,27 +191,27 @@ ex) 현재 달과 전월의 매출 차이 확인하기
 : 사용하고자 하는 필드 위에 마우스 우클릭->퀵 테이블 계산 선택
 ```
 <계산 유형 알아보기>   
-1)누계: 집계한 값을 누적한 값으로 한 번 더 집계해주는 계산 유형   
+1. 누계: 집계한 값을 누적한 값으로 한 번 더 집계해주는 계산 유형   
 **ex1)** 분기별 **누적 매출**&매출 차트
 
 <img width="797" alt="실습1" src="https://github.com/user-attachments/assets/47ec703f-ffc0-4b11-812c-80639349ec22">
 
-2)차이: 측정값이 기준 값과 어느 정도 차이가 나는 지 구하는 계산 유형   
+2. 차이: 측정값이 기준 값과 어느 정도 차이가 나는 지 구하는 계산 유형   
 **ex2)** 각 제품에 대한 연도별 **매출 차이**
 
 <img width="366" alt="실습2" src="https://github.com/user-attachments/assets/68ba4eab-c4b1-410a-83b1-acbb044575c6">
 
-3)비율차이: 측정값들 사이의 성장률 또는 %차이를 표현   
+3. 비율차이: 측정값들 사이의 성장률 또는 %차이를 표현   
 **ex3)** 월별 **수익 차이**를 **%(퍼센트)**로 확인하기
 
 <img width="800" alt="실습3" src="https://github.com/user-attachments/assets/049b80f5-41a9-4093-bf47-35a6783bc430">
 
-4)구성비율: 전체에서 각 항목들의 비중을 확인할 때 사용   
+4. 구성비율: 전체에서 각 항목들의 비중을 확인할 때 사용   
 **ex4)** 지역별 제품 매출 **순위**와 **구성비율**
 
 <img width="451" alt="실습4" src="https://github.com/user-attachments/assets/c61d78ad-2fc6-4828-8c3c-624ca6a23d2e">
 
-5)백분위수: 전체에서 각 멤버들의 백분위를 표시하도록 함   
+5. 백분위수: 전체에서 각 멤버들의 백분위를 표시하도록 함   
 **ex5)** 매출이 많은 고객과 적은 고객을 보고자 할 때 백분위로 표시하기
 
 <img width="331" alt="실습5" src="https://github.com/user-attachments/assets/a49e5a08-d19e-49a5-96cb-8b9b11c7bedd">
@@ -221,24 +221,24 @@ ex) 현재 달과 전월의 매출 차이 확인하기
 
 <!-- 이동평균, YTD 총계, 전년 대비 성장률, YTD 성장률 등 본 강의에서 알게 된 점을 적어주세요. -->
 
-6)이동평균: 이전의 값부터 현재까지 값에 대한 평균을 낼 때 사용하며, 주식 데이터에서 많이 활용됨.
+6. 이동평균: 이전의 값부터 현재까지 값에 대한 평균을 낼 때 사용하며, 주식 데이터에서 많이 활용됨.
 
 <img width="799" alt="실습6" src="https://github.com/user-attachments/assets/2c70d26e-277c-4cdb-88c1-032031781bf8">
 
-7)YTD(Year to Date): 특정 시점을 기준으로 해당 연도부터 그 시점까지 총계
+7. YTD(Year to Date): 특정 시점을 기준으로 해당 연도부터 그 시점까지 총계
 기본적으로 `누계`와 같은 개념이지만 '연도'보다 `하위레벨 필드`인 ‘분기’ 또는 ‘월’이 있어야 사용 가능.
 
 <img width="434" alt="실습7" src="https://github.com/user-attachments/assets/34ed659a-dd06-4f6f-8e31-fa6e15164ed6">
 
-8)통합 성장률(Compound Growth Rate)
+8. 통합 성장률(Compound Growth Rate)
 
 <img width="426" alt="실습8" src="https://github.com/user-attachments/assets/afe7a1da-e39d-469f-954c-e2fc2a87847c">
 
-9)전년 대비 성장률(Year Over Year Growth): 같은 월을 기준으로 이전 년도 대비 얼마 정도 성장했는지 살펴볼 때 활용됨.
+9. 전년 대비 성장률(Year Over Year Growth): 같은 월을 기준으로 이전 년도 대비 얼마 정도 성장했는지 살펴볼 때 활용됨.
 
 <img width="430" alt="실습9" src="https://github.com/user-attachments/assets/e9d5c579-51ce-49ac-b9d2-d09c331e3388">
 
-10)YTD Growth
+10. YTD Growth
 ```
 #주의
 : 퀵테이블 계산이 적용된 매출 필드를 더블 클릭하면 동작을 완료할 수 없다는 에러가 뜨는데, 그 이유는 "단일 계산식이 아니"기 때문이다.
