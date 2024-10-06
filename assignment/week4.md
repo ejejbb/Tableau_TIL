@@ -221,6 +221,36 @@ ex) 현재 달과 전월의 매출 차이 확인하기
 
 <!-- 이동평균, YTD 총계, 전년 대비 성장률, YTD 성장률 등 본 강의에서 알게 된 점을 적어주세요. -->
 
+6)이동평균: 이전의 값부터 현재까지 값에 대한 평균을 낼 때 사용하며, 주식 데이터에서 많이 활용됨.
+
+<img width="799" alt="실습6" src="https://github.com/user-attachments/assets/2c70d26e-277c-4cdb-88c1-032031781bf8">
+
+7)YTD(Year to Date): 특정 시점을 기준으로 해당 연도부터 그 시점까지 총계
+기본적으로 `누계`와 같은 개념이지만 '연도'보다 `하위레벨 필드`인 ‘분기’ 또는 ‘월’이 있어야 사용 가능.
+
+<img width="434" alt="실습7" src="https://github.com/user-attachments/assets/34ed659a-dd06-4f6f-8e31-fa6e15164ed6">
+
+8)통합 성장률(Compound Growth Rate)
+
+<img width="426" alt="실습8" src="https://github.com/user-attachments/assets/afe7a1da-e39d-469f-954c-e2fc2a87847c">
+
+9)전년 대비 성장률(Year Over Year Growth): 같은 월을 기준으로 이전 년도 대비 얼마 정도 성장했는지 살펴볼 때 활용됨.
+
+<img width="430" alt="실습9" src="https://github.com/user-attachments/assets/e9d5c579-51ce-49ac-b9d2-d09c331e3388">
+
+10)YTD Growth
+```
+#주의
+: 퀵테이블 계산이 적용된 매출 필드를 더블 클릭하면 동작을 완료할 수 없다는 에러가 뜨는데, 그 이유는 "단일 계산식이 아니"기 때문이다.
+이를 확인하기 위해 측정값 카드에 있는 ‘합계(매출) △’를 ctrl키를 누른 상태로 데이터 패널로 던지면, 임시 필드인 ‘계산1’과 ‘계산1 1’ 이렇게 2개의 필드가 생성되는데, 성장률 안에서는 총계가 숨어있기 때문이다.
+
+계산1 -> YTD 총계, 계산1 1 -> YTD 성장률
+```
+
+<img width="432" alt="실습10" src="https://github.com/user-attachments/assets/063eaf43-9c1d-4f76-8eb8-04bfa5289a0e">
+
+
+
 ## 문제 1.
 
 규석이는 이제껏 매출을 올리는 데에 힘썼었지만, 왠지 모르게 주머니에 들어오는 돈이 없어 속상합니다. 
