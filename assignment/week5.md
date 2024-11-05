@@ -51,21 +51,28 @@
 
 ### 1. FIXED에서 설정한 차원이 뷰에 포함되어 있을 때-1
 - '지역별 매출' 계산된 필드 만들기
-그림1
+  <img width="375" alt="1" src="https://github.com/user-attachments/assets/12266b7e-ea65-4ca8-b9be-b9129822d3d2">
+
 - 현재 뷰에서 보여주는 세부 수준인 '국가/지역' 기준이 아니라 '지역' 수준에 따라 합계된 매출이 나타나게 됨.
-그림2
+  <img width="429" alt="2" src="https://github.com/user-attachments/assets/99593df5-54ca-4941-b78e-5c64a9e31a35">
+
 
 ### 2. FIXED에서 설정한 차원이 뷰에 포함되어 있지 않을 때
 - '범주별 매출' 계산된 필드 만들기
-그림3
+  <img width="374" alt="3" src="https://github.com/user-attachments/assets/1801a0d1-2723-49e1-bc17-17d9bde80438">
+
 - 현재 뷰에서는 '지역별 매출'을 보여주지만, 추가된 열에서 뷰에 나타나 있지 않은 '범주별 매출'을 보여준다.
-그림4
+  <img width="343" alt="4" src="https://github.com/user-attachments/assets/d64e25d4-7e5c-4b7d-ab29-d7fb6bef4d85">
+
 
 ### 3. FIXED에서 설정한 차원이 뷰에 포함되어 있을 때-2
 - '전체 매출'과 '제품 구성 비율' 계산된 필드 만들기
-그림5, 그림6
+  <img width="371" alt="5" src="https://github.com/user-attachments/assets/ec38ed05-5398-4bae-b56a-69fe87f526df">
+  <img width="373" alt="6" src="https://github.com/user-attachments/assets/fbb86ceb-bf11-4eaf-aadb-c0d960d09f83">
+
 - 필터로 하위범주의 가전제품을 제외해도, 계산된 필드로 생성된 열은 변함이 없다.
-그림7
+  <img width="790" alt="7" src="https://github.com/user-attachments/assets/c4ad81de-cb02-475b-b15a-549e8e400cba">
+
 
 
 ## 40. LOD EXCLUDE
