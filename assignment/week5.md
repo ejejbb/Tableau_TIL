@@ -81,9 +81,16 @@
 -> 현재 뷰에서 특정 차원을 제외하여 계산할 때 사용
 
 - 계산된 필드 만들기
-: '액세서리 매출', 'exclude 하위 범주 매출', '각 제품별 매출과 액세서리 매출의 차이'
-그림10 -> 그림11
-그림12,13 -> 그림14
+: '액세서리 매출', 'exclude 하위 범주 매출', '각 제품별 매출과 액세서리 매출의 차이'   
+<img width="370" alt="10" src="https://github.com/user-attachments/assets/15c535fc-b3d0-495d-906b-47cd924444ea">
+->
+<img width="796" alt="11" src="https://github.com/user-attachments/assets/f593ef18-a8ee-4c8e-b530-d45c88cf7e18">   
+
+
+<img width="366" alt="12" src="https://github.com/user-attachments/assets/843b9993-2d54-4b55-95de-6a0251d05ba7">
+<img width="366" alt="13" src="https://github.com/user-attachments/assets/394c1bd1-0408-4b0a-bd3e-c73b00513ed7">   
+->
+<img width="674" alt="14" src="https://github.com/user-attachments/assets/a0a9b0e4-02ed-4a4f-959b-68c9b1865021">   
 
 => 모든 제품의 매출이 액세서리 매출을 기준으로 얼마나 차이가 나는지에 대해(액세서리 매출 기준 더 많은지 적은지) 확인 가능 
 ```
@@ -120,15 +127,22 @@ EXCLUDE는 ①현재 뷰에서 ②특정 차원을 제외하여 계산하고자 
 
  - `각 도시의 고객당 평균 매출`을 확인하기 위해   
 '국가/지역', '시/도', '주문id' 필드를 행 선반에 놓고 매출 필드를 더블클릭하는 것으로 가능하지만   
-해당 값들은 따로 필드를 생성한 것이 아니기 때문에 이 값을 재사용하기 위해서는 `INCLUDE` LOD 표현식을 사용한다.
+해당 값들은 따로 필드를 생성한 것이 아니기 때문에 이 값을 재사용하기 위해서는 `INCLUDE` LOD 표현식을 사용한다.   
 
-(그림15)   
+<img width="365" alt="15" src="https://github.com/user-attachments/assets/9024634e-546f-47c2-9dd2-dadbdbf28d13">   
+
 -> 해당 함수는 주문id 차원을 포함해서 합계한 매출에 평균을 반환한다는 의미이다.
 
 ### 계산된 필드를 사용한 것과 사용하지 않은 것 비교
-계산된 필드 사용x(그림16) vs 계산된 필드 사용o(그림17)
+[계산된 필드 사용x]   
+<img width="540" alt="16" src="https://github.com/user-attachments/assets/4eadf6ba-27a4-4b87-9b8d-6a3d97dd0e8c">   
 
-그림17 설명: 주문id 차원을 현재 뷰에서 표시하지 않지만 include lod 표현식을 통해 해당 차원을 계산에 추가할 수 있다.
+vs.   
+
+[계산된 필드 사용o]   
+<img width="438" alt="17" src="https://github.com/user-attachments/assets/1754981d-87db-4973-beda-771cd8c85cc8">   
+
+-> 설명: 주문id 차원을 현재 뷰에서 표시하지 않지만 include lod 표현식을 통해 해당 차원을 계산에 추가할 수 있다.
 
 ```
 # INCLUDE 대신 FIXED 사용하여 동일한 결과 나타내기
@@ -169,11 +183,14 @@ FIXED 사용: AVG({FIXED [주문 Id]:SUM([매출])})
 3. 데이터 패널을 통해 만들기
 ```
 
-실습: (그림18)
+실습: <img width="420" alt="18" src="https://github.com/user-attachments/assets/9b0f5328-2d49-466b-b35c-d5bb801d1c55">
+
 
 
 > **🧞‍♀️ 집합에도 매개변수를 적용할 수 있나요? 시도해봅시다**
-(그림19, 20)
+<img width="341" alt="19" src="https://github.com/user-attachments/assets/91bbc87f-0914-48be-9501-3213cbf97438">
+<img width="799" alt="20" src="https://github.com/user-attachments/assets/ab55b42c-7392-476f-8aac-6b49dd430989">
+
 
 
 ## 43. 매개변수 실습
@@ -187,24 +204,37 @@ https://www.youtube.com/watch?v=GJvB8hBqeE8
 '~별 매출'을 보고자 할 때, 행 선반에 원하는 필드를 끌어다 놓을 수도 있지만 매개변수를 활용하면 조금 더 쉽게 변경 가능하다.
 
 [실습]   
-매개변수 만들기: (그림21)
-매개변수 작동을 위한 계산된 필드 만들기: (그림22)
-어떤 차원을 선택했는지 한 눈에 확인하기 위해 제목 변경하기: (그림23)
-실습결과: (그림24)
+매개변수 만들기:   
+<img width="422" alt="21" src="https://github.com/user-attachments/assets/4a9c1771-bae3-48fe-a8c0-b9fbb1d2279f">   
+매개변수 작동을 위한 계산된 필드 만들기:   
+<img width="361" alt="22" src="https://github.com/user-attachments/assets/a848a881-685e-4bcf-ba5f-6c67b6e9e6bb">   
+어떤 차원을 선택했는지 한 눈에 확인하기 위해 제목 변경하기:   
+<img width="328" alt="23" src="https://github.com/user-attachments/assets/3f65e386-b158-4f2d-a405-2703dc5d4a6b">   
+실습결과:   
+<img width="799" alt="24" src="https://github.com/user-attachments/assets/24777120-a07b-47b9-b41a-6f09a668ef85">
+
 
 
 ### 실습2. 측정값 선택하기
 '항목별 ~'을 보고자 할 때, 열 선반에 원하는 필드를 끌어다 놓을 수도 있지만 매개변수를 활용하면 조금 더 쉽게 변경 가능하다.
 
 [실습]   
-매개변수 만들기: (그림25)
-매개변수 작동을 위한 계산된 필드 만들기: (그림26)
-어떤 차원을 선택했는지 한 눈에 확인하기 위해 제목 변경하기: (그림27)
-실습결과: (그림28)
+매개변수 만들기:   
+<img width="421" alt="25" src="https://github.com/user-attachments/assets/02886dbc-f140-4855-a616-f9aca384f1bd">   
+매개변수 작동을 위한 계산된 필드 만들기:   
+<img width="364" alt="26" src="https://github.com/user-attachments/assets/f105a13b-f686-450d-a5c5-6fc4c7162822">   
+어떤 차원을 선택했는지 한 눈에 확인하기 위해 제목 변경하기:   
+<img width="329" alt="27" src="https://github.com/user-attachments/assets/d14a9c59-e323-4de3-84ef-9244c279a99e">   
+실습결과:   
+<img width="796" alt="28" src="https://github.com/user-attachments/assets/a4f65089-f9dd-4b63-9a08-393a6985b827">   
+
 
 [추가 실습]: 측정값 단위 나타내기
-매개변수 만들기: (그림29)
-실습결과: (그림30)
+매개변수 만들기:    
+<img width="365" alt="29" src="https://github.com/user-attachments/assets/fbf20914-60da-425d-8b6b-99cdb303edc5">   
+실습결과:   
+<img width="796" alt="30" src="https://github.com/user-attachments/assets/45fd7d19-e96a-4dac-ad1b-defdb0ddb49d">
+
 
 
 
@@ -214,17 +244,25 @@ https://www.youtube.com/watch?v=GJvB8hBqeE8
 
 매개변수는 계산식, 필터, `참조선`을 함께 사용해야 작동됨.
 
-[실습1]: `목표 매출`을 달성한 나라와 그렇지 않은 나라를 구분하기
-참조선 만들기:(그림31)
--> `분석` 탭에서 `참조선`을 뷰로 드래그
-색상 구분하기:(그림32)
-실습 결과:(그림33)
+[실습1]: `목표 매출`을 달성한 나라와 그렇지 않은 나라를 구분하기   
+참조선 만들기(`분석` 탭에서 `참조선`을 뷰로 드래그):   
+<img width="284" alt="31" src="https://github.com/user-attachments/assets/03aa7bd5-ded2-4d79-b95f-ba11c4e0d560">   
+색상 구분하기:   
+<img width="363" alt="32" src="https://github.com/user-attachments/assets/4ba68000-bece-471d-b81a-864f14b2ff37">   
+실습 결과:   
+<img width="796" alt="33" src="https://github.com/user-attachments/assets/c30ee01b-546d-48d2-86c0-2a692d3b6c74">   
 
-[실습2]: `날짜 범위`의 매출합계 구하기
-'시작 날짜', '마지막 날짜' 매개변수 만들기:(그림34)
-참조선 만들기:(그림35)
-제목 변경하기: (그림36,37)
-실습 결과:(그림38)
+
+[실습2]: `날짜 범위`의 매출합계 구하기   
+'시작 날짜', '마지막 날짜' 매개변수 만들기:   
+<img width="421" alt="34" src="https://github.com/user-attachments/assets/48259b5e-c1c4-4240-b3d9-7cb3cf6d81bb">   
+참조선 만들기:   
+<img width="287" alt="35" src="https://github.com/user-attachments/assets/a9670e33-b76e-4d1a-9322-64b1544da869">   
+제목 변경하기:    
+<img width="364" alt="36" src="https://github.com/user-attachments/assets/0c83d924-c28f-4e08-b3ba-61851cfbf93e">
+<img width="331" alt="37" src="https://github.com/user-attachments/assets/478f34a6-733a-42c5-9788-d97152728e89">   
+실습 결과:   
+<img width="798" alt="38" src="https://github.com/user-attachments/assets/482bd7df-b169-4557-8e2e-6624d4fcde29">
 
 
 ## 45. 워크시트 마크카드
@@ -255,8 +293,8 @@ https://www.youtube.com/watch?v=GJvB8hBqeE8
 <!-- 서식계층에 대해 알게 된 점을 적어주세요 -->
 
 > **🧞‍♀️ 서식계층을 일반적인 것에서 구체적인 것 순서로 기입해보세요**
+![캡처](https://github.com/user-attachments/assets/aef34ea0-7379-4e68-8244-770168f9a0ed)
 
-(캡처)
 
 
 ## 47. 워크시트 서식
