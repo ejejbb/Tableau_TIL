@@ -330,15 +330,16 @@ https://www.youtube.com/watch?v=GJvB8hBqeE8
 ```
 
 <문제 풀이 과정>   
-1. DATEDIFF 함수를 사용하여 '배송까지 걸린 일수'라는 계산된 필드 만들기 -> 차원으로 변경하여 사용
-(그림1-1)
-2. FIXED LOD 표현식을 사용하여 '국가별/범주별 평균 배송 일자'라는 계산된 필드 만들기
-(그림1-2)
-3. IF 함수를 사용하여 '배송 속도 수준'이라는 계산된 필드 만들기
-(그림1-3)
+1. DATEDIFF 함수를 사용하여 '배송까지 걸린 일수'라는 계산된 필드 만들기 -> 차원으로 변경하여 사용   
+<img width="361" alt="1-1" src="https://github.com/user-attachments/assets/00f5cf33-0fb7-4935-8b8f-234a9c9014ae">   
+2. FIXED LOD 표현식을 사용하여 '국가별/범주별 평균 배송 일자'라는 계산된 필드 만들기   
+<img width="355" alt="1-2" src="https://github.com/user-attachments/assets/1d24f48f-699f-4394-95e5-3af3ec085676">   
+3. IF 함수를 사용하여 '배송 속도 수준'이라는 계산된 필드 만들기   
+<img width="359" alt="1-3" src="https://github.com/user-attachments/assets/da50aba9-dd42-4ead-afcc-d93f8f69444a">   
 4. 마크창의 색상에 '배송 속도 수준' 필드를, 마크창의 텍스트에 '배송까지 걸린 일수' 필드를 Ctrl+drug&drop하기
-5. 실습 결과
-(그림1-4)
+5. 실습 결과   
+<img width="791" alt="1-4" src="https://github.com/user-attachments/assets/04722ada-0bc1-4b46-ae22-9db50c93dd12">
+
 
 
 <!-- 여기까지 오는 과정 중 알게 된 점을 기입하고, 결과는 시트 명을 본인 이름으로 바꾸어 표시해주세요.-->
@@ -353,18 +354,20 @@ https://www.youtube.com/watch?v=GJvB8hBqeE8
  어떤 값이 각 지표의 평균보다 낮은 값을 갖고 있다면 색깔을 주황색으로, 그것보다 높다면 파란색으로 표시하고 싶어요. 그 평균값은 각 지표별로 달라야 해요.
 ```
 
-![example](https://github.com/yousrchive/BUSINESS-INTELLIGENCE-TABLEAU/blob/main/study/img/2nd%20study/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png?raw=true)
-
 <!-- 예시 사진은 지워주세요-->
 
 <문제 풀이 과정>   
-1. 매개변수 만들기
-(그림2-1)
-2. 매개변수 작동을 위한 계산된 필드 만들기: '측정값 선택2'
-(그림2-2)
-3. 매개변수별 평균보다 높으면 '파랑', 낮으면 '주황'으로 색상을 다르게 나타내기 위한 계산된 필드 만들기1: '측정값 평균'
-(그림2-3)
-4. 매개변수별 평균보다 높으면 '파랑', 낮으면 '주황'으로 색상을 다르게 나타내기 위한 계산된 필드 만들기2: '평균 기준'
-(그림2-4)
+1. 매개변수 만들기   
+<img width="418" alt="2-1" src="https://github.com/user-attachments/assets/65ba405b-2aa3-4bdb-9a7a-9066bc04be03">   
+2. 매개변수 작동을 위한 계산된 필드 만들기: '측정값 선택2'   
+<img width="354" alt="2-2" src="https://github.com/user-attachments/assets/1e27d9c8-b9fd-465f-a7cf-3a00bedbe380">   
+3. 매개변수별 평균보다 높으면 '파랑', 낮으면 '주황'으로 색상을 다르게 나타내기 위한 계산된 필드 만들기1: '측정값 평균'   
+<img width="354" alt="2-3" src="https://github.com/user-attachments/assets/3d87b38b-8bd5-446e-a1da-e1d70b40ce83">   
+4. 매개변수별 평균보다 높으면 '파랑', 낮으면 '주황'으로 색상을 다르게 나타내기 위한 계산된 필드 만들기2: '평균 기준'   
+<img width="356" alt="2-4" src="https://github.com/user-attachments/assets/283ee562-2fd1-415b-82ed-24fefa1b0bc3">   
 5. 실습 결과
-(그림2-5,6,7)
+<img width="794" alt="2-5" src="https://github.com/user-attachments/assets/e8915f13-68ee-4cab-9962-6cd3fcf81579">
+<img width="796" alt="2-6" src="https://github.com/user-attachments/assets/0870649b-eed0-43c7-9583-1e428cd95b07">
+<img width="797" alt="2-7" src="https://github.com/user-attachments/assets/a9b8c3c2-b823-4e7c-bb0b-7b6ff006a63e">
+
+
