@@ -91,7 +91,7 @@
 # 필터
 - 차트 클릭 > 드롭다운 메뉴 > 필터 >> 대시보드에 선택한 필터가 컨테이너에 추가됨
 
-# 대시보드 동작
+# 대시보드 동작(필터 동작)
 - 방법1. 대시보드 탭 > 동작
               > 필터 동작 > 동작 실행 조건(마우스오버/선택/메뉴)
 - 방법2. 대시보드의 차트를 선택 > 필터로 사용 기호 클릭 > 대시보드의 동작 리스트에 동작이 추가됨 > 편집
@@ -99,29 +99,81 @@
 ## 선택: 차트의 마크를 클릭하면 나머지 데이터가 선택한 마크의 데이터로 변경
 ## 메뉴: 마크를 클릭할 때 마크의 도구 설명에 텍스트가 나타나고 옵션을 선택할 때 나머지 데이터가 변경
 ```
+필터 동작   
+<img width="487" alt="4" src="https://github.com/user-attachments/assets/21222383-11cc-44b3-bff1-759b888b65fc">
+
+
 
 ## 54. 대시보드 하이라이터 동작
 
 <!-- 하이라이터에 대해 알게 된 점을 적어주세요 -->
 ```
-
+# 하이라이트 동작
+- 대시보드 탭 > 동작
+       > 하이라이트 동작 > 동작 실행 조건(마우스오버/선택/메뉴)
 ```
+하이라이트 동작 추가   
+<img width="377" alt="1" src="https://github.com/user-attachments/assets/a7a81c0b-b74a-4055-840b-ced41997acab">   
+결과가 좀 웃기긴 하지만 작동 잘 됨   
+<img width="324" alt="2" src="https://github.com/user-attachments/assets/0668722f-cbd9-4eca-86e3-630743693bd7">
+
+
 
 ## 55. 대시보드 URL
 
 <!-- URL에 대해 알게 된 점을 적어주세요 -->
+```
+# URL 동작
+- 대시보드 탭 > 동작
+       > URL 동작 > 동작 실행 조건(마우스오버/선택/메뉴)
+```
+
+URL 동작 추가(1)   
+<img width="376" alt="3" src="https://github.com/user-attachments/assets/1364f5a2-f4db-44ff-b8fd-839434217104">   
+
+URL 동작 추가(2)   
+<img width="375" alt="5" src="https://github.com/user-attachments/assets/6b9db9b0-336d-4248-a415-320286dd0205">   
+URL 동작 추가(2) 결과   
+<img width="323" alt="6" src="https://github.com/user-attachments/assets/491a1a35-55c2-4e21-ab13-d58fa1494f60">
+
+
 
 
 ## 56. 대시보드 시트에 이동 동작
 
 <!-- 대시보드 시트에 이동에 대해 알게 된 점을 적어주세요!-->
+```
+# 이동 동작
+대시보드 위에 또 다른 차트를 추가하면 원래 있던 차트의 크기가 작아짐
+대시보드의 맵 차트에 국가를 선택하고 도구 설명에 링크를 클릭하면 다른 차트를 표시하는 대시보드로 이동할 수 있도록 하는 기능
+```
+이동 동작 추가   
+<img width="376" alt="7" src="https://github.com/user-attachments/assets/7a933536-ac44-497f-bdc5-8d0e78b748fc">   
+
+다른 차트에도 필터가 적용되게 하려면 필터 동작을 추가적으로 적용해야 함
+<img width="479" alt="8" src="https://github.com/user-attachments/assets/c8c019ba-96ac-441e-9da3-cf7b10d74202">
+
+다른 차트가 있는 대시보드로 넘어가서 다시 돌아오는 데에 어려움이 있음 > 원래 대시보드로 돌아가는 단추 만들기
+```
+탐색 개체 > 편집 단추
+ALT키 누른 상태에서 단추를 누르면 수익성 대시보드로 돌아갈 수 있음!
+```
+편집 단추 만들기   
+<img width="299" alt="9" src="https://github.com/user-attachments/assets/0c8b5419-fc61-471f-bdf4-efae90e4e3f4">
+<img width="322" alt="10" src="https://github.com/user-attachments/assets/1b4d154a-4fd8-479d-94b2-255a010bff5a">
+
 
 ## 57. 매개변수 변경 동작
 
 <!-- 매개변수 변경 동작에 대해 알게 된 점을 적어주세요!-->
+주문 날짜 필터 만들기   
+<img width="343" alt="11" src="https://github.com/user-attachments/assets/ad29308c-5c83-4263-b83a-7af8e59ff4d1">   
+
+매개 변수 동작   
+<img width="375" alt="12" src="https://github.com/user-attachments/assets/01dc2635-85bd-4664-8a64-b4f248723f09">
+
 
 ## 문제
-
 오늘은 별도의 문제가 없습니다. 
 여러 대시보드를 참고하시어, superstore 데이터를 사용해 나만의 대시보드를 제작해주세요.
 
