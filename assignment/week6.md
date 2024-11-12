@@ -179,7 +179,8 @@ ALT키 누른 상태에서 단추를 누르면 수익성 대시보드로 돌아�
 
 **단, 워크시트 3개 이상의 그래프를 표시해야 하며 각 시트 간 상호작용성 필터 or 하이라이트 동작은 꼭 추가되어야 합니다**
 
-대시보드를 만든 것에 의의를 두고 있습니다...
+<img width="499" alt="13" src="https://github.com/user-attachments/assets/ca8ca2cf-3c53-4d57-bcf1-ebf262cb1f15">
 
-<img width="800" alt="13" src="https://github.com/user-attachments/assets/93e26fbb-e003-4c96-aeae-ffd5d2a7b5e5">
-
+- 월별로 국가별 매출과 수익을 볼 수 있다.
+- 하위목록별 매출과 수익을 볼 수 있다.
+- 국가 클릭 > 고객 별 매출과 수익을 확인할 수 있다.
