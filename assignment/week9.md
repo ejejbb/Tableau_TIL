@@ -9,11 +9,11 @@
 ---
 
 ### 사용한 데이터셋
-https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset
+https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset   
 이 데이터에서 미국 데이터만 필터링하여 사용
 
 ### 대시보드 링크(태블로 퍼블릭)
-
+https://public.tableau.com/app/profile/.63651269/viz/_17332482594500/sheet12?publish=yes
 ---
 ### 대시보드 설명
 대시보드1. [미국의 억만장자]
